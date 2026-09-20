@@ -1,0 +1,6 @@
+{
+  "name": "NEWAZ CAPITALX",
+  "description": "AI Market Intelligence, Signal Analytics, and Smart Money Management trading terminal.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
