@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0b0e14"/>
+  <rect x="24" y="24" width="464" height="464" rx="96" stroke="#10b981" stroke-width="8" stroke-opacity="0.5"/>
+  <defs>
+    <linearGradient id="bullGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <!-- Wick 1 -->
+  <line x1="180" y1="150" x2="180" y2="350" stroke="#34d399" stroke-width="12" stroke-linecap="round"/>
+  <!-- Candle 1 -->
+  <rect x="150" y="200" width="60" height="110" rx="8" fill="url(#bullGrad)"/>
+  
+  <!-- Wick 2 -->
+  <line x1="310" y1="90" x2="310" y2="320" stroke="#34d399" stroke-width="12" stroke-linecap="round"/>
+  <!-- Candle 2 -->
+  <rect x="280" y="130" width="60" height="140" rx="8" fill="url(#bullGrad)"/>
+
+  <!-- Glowing Trend Arrow -->
+  <path d="M100 370 L210 270 L270 310 L400 140" stroke="url(#lineGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <polygon points="405,120 415,165 375,145" fill="#38bdf8" filter="url(#glow)"/>
+</svg>

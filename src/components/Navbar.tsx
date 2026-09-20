@@ -14,6 +14,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { Timeframe } from '../types.js';
+import { PWAInstallButton } from './PWAInstallButton.js';
 
 export const Navbar: React.FC = () => {
   const {
@@ -244,6 +245,9 @@ export const Navbar: React.FC = () => {
               <span>Admin Access</span>
             </button>
           )}
+
+          {/* PWA Install App Button */}
+          <PWAInstallButton />
 
           {/* Landing / Terminal toggle button */}
           <button

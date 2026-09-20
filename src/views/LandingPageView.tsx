@@ -16,6 +16,7 @@ import {
   Zap,
   Globe2,
 } from 'lucide-react';
+import { PWAInstallButton } from '../components/PWAInstallButton.js';
 
 export const LandingPageView: React.FC = () => {
   const { settings, setActiveTab, setSelectedAsset, markets, currentSignal } = useApp();
@@ -63,6 +64,10 @@ export const LandingPageView: React.FC = () => {
               <Calculator className="w-4 h-4 text-emerald-400" />
               <span>Explore Money Management</span>
             </button>
+
+            <div className="flex items-center">
+              <PWAInstallButton />
+            </div>
 
             {settings?.general?.supportTelegram && (
               <a
