@@ -43,10 +43,33 @@
         }
       })();
     </script>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body class="bg-[#0b0e14] text-slate-100 antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Automatically load pre-compiled production bundle on GitHub Pages or static hosts
+      (function() {
+        var isLocal = window.location.hostname === 'localhost' || 
+                      window.location.hostname === '127.0.0.1' || 
+                      window.location.hostname.includes('run.app');
+        if (!isLocal) {
+          var script = document.createElement('script');
+          script.type = 'module';
+          script.crossOrigin = 'anonymous';
+          script.src = './assets/app.js';
+          document.body.appendChild(script);
+        }
+      })();
+    </script>
+    <script type="module">
+      // Only run raw TSX source in Vite development mode
+      if (window.location.hostname === 'localhost' || 
+          window.location.hostname === '127.0.0.1' || 
+          window.location.hostname.includes('run.app')) {
+        import('/src/main.tsx');
+      }
+    </script>
   </body>
 </html>
 

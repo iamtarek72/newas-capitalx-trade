@@ -160,7 +160,7 @@
       "symbol": "EUR/USD",
       "name": "Euro / US Dollar",
       "category": "forex",
-      "price": 1.1477,
+      "price": 1.1478,
       "change24h": 0.28,
       "high24h": 1.1478,
       "low24h": 1.0812,
@@ -168,13 +168,13 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.783Z"
+      "lastUpdated": "2026-09-20T11:18:05.135Z"
     },
     {
       "symbol": "GBP/USD",
       "name": "British Pound / US Dollar",
       "category": "forex",
-      "price": 1.3369,
+      "price": 1.337,
       "change24h": -0.14,
       "high24h": 1.3371,
       "low24h": 1.2885,
@@ -182,13 +182,13 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.783Z"
+      "lastUpdated": "2026-09-20T11:18:05.136Z"
     },
     {
       "symbol": "USD/JPY",
       "name": "US Dollar / Japanese Yen",
       "category": "forex",
-      "price": 157.14,
+      "price": 157.15,
       "change24h": 0.45,
       "high24h": 157.15,
       "low24h": 154.2,
@@ -196,13 +196,13 @@
       "enabled": true,
       "digits": 2,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.784Z"
+      "lastUpdated": "2026-09-20T11:18:05.136Z"
     },
     {
       "symbol": "USD/CHF",
       "name": "US Dollar / Swiss Franc",
       "category": "forex",
-      "price": 0.8234,
+      "price": 0.8235,
       "change24h": -0.08,
       "high24h": 0.887,
       "low24h": 0.8233,
@@ -210,13 +210,13 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.784Z"
+      "lastUpdated": "2026-09-20T11:18:05.137Z"
     },
     {
       "symbol": "AUD/USD",
       "name": "Australian Dollar / US Dollar",
       "category": "forex",
-      "price": 0.7119,
+      "price": 0.7117,
       "change24h": 0.32,
       "high24h": 0.7119,
       "low24h": 0.655,
@@ -224,13 +224,13 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.785Z"
+      "lastUpdated": "2026-09-20T11:18:05.137Z"
     },
     {
       "symbol": "USD/CAD",
       "name": "US Dollar / Canadian Dollar",
       "category": "forex",
-      "price": 1.399,
+      "price": 1.3991,
       "change24h": -0.18,
       "high24h": 1.3992,
       "low24h": 1.379,
@@ -238,7 +238,7 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.786Z"
+      "lastUpdated": "2026-09-20T11:18:05.137Z"
     },
     {
       "symbol": "NZD/USD",
@@ -252,49 +252,49 @@
       "enabled": true,
       "digits": 4,
       "source": "Global FX Exchange Network",
-      "lastUpdated": "2026-09-20T11:09:47.787Z"
+      "lastUpdated": "2026-09-20T11:18:05.138Z"
     },
     {
       "symbol": "BTC/USD",
       "name": "Bitcoin / US Dollar",
       "category": "crypto",
-      "price": 80362,
-      "change24h": -1.219,
+      "price": 80322,
+      "change24h": -1.256,
       "high24h": 81951,
       "low24h": 80126.04,
       "volume": "$1.0B",
       "enabled": true,
       "digits": 2,
       "source": "Binance Public API",
-      "lastUpdated": "2026-09-20T11:09:47.325Z"
+      "lastUpdated": "2026-09-20T11:18:04.597Z"
     },
     {
       "symbol": "ETH/USD",
       "name": "Ethereum / US Dollar",
       "category": "crypto",
-      "price": 2571.77,
-      "change24h": -2.695,
+      "price": 2569.43,
+      "change24h": -2.658,
       "high24h": 2668,
       "low24h": 2564.33,
       "volume": "$0.5B",
       "enabled": true,
       "digits": 2,
       "source": "Binance Public API",
-      "lastUpdated": "2026-09-20T11:09:47.472Z"
+      "lastUpdated": "2026-09-20T11:18:04.773Z"
     },
     {
       "symbol": "SOL/USD",
       "name": "Solana / US Dollar",
       "category": "crypto",
-      "price": 108.11,
-      "change24h": -3.387,
+      "price": 107.96,
+      "change24h": -3.495,
       "high24h": 112.46,
       "low24h": 107.4,
       "volume": "$0.2B",
       "enabled": true,
       "digits": 2,
       "source": "Binance Public API",
-      "lastUpdated": "2026-09-20T11:09:47.618Z"
+      "lastUpdated": "2026-09-20T11:18:04.950Z"
     },
     {
       "symbol": "NASDAQ",
@@ -340,6 +340,108 @@
     }
   ],
   "trades": [
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 19.21,
+      "result": "LOSS",
+      "pnl": -19.21,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptcefc0on",
+      "createdAt": 1789902635271
+    },
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 19.21,
+      "result": "LOSS",
+      "pnl": -19.21,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptcedmxno",
+      "createdAt": 1789902635269
+    },
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 19.6,
+      "result": "LOSS",
+      "pnl": -19.6,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptc869lph",
+      "createdAt": 1789902635046
+    },
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 19.6,
+      "result": "LOSS",
+      "pnl": -19.6,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptc84173x",
+      "createdAt": 1789902635044
+    },
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 20,
+      "result": "LOSS",
+      "pnl": -20,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptbwzlpvw",
+      "createdAt": 1789902634643
+    },
+    {
+      "date": "2026-09-20",
+      "time": "5:10:41 PM",
+      "asset": "EUR/USD",
+      "direction": "CALL",
+      "timeframe": "1M",
+      "entryPrice": 0,
+      "exitPrice": 0,
+      "stake": 20,
+      "result": "LOSS",
+      "pnl": -20,
+      "confidence": 80,
+      "reason": "Executed via Money Management terminal session",
+      "dataSource": "Live Signal Engine",
+      "id": "tr_mu9ptbwwe70t",
+      "createdAt": 1789902634640
+    },
     {
       "date": "2026-09-20",
       "time": "4:48:51 PM",
@@ -702,100 +804,28 @@
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: DOW JONES (15M)",
-      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9psbrh",
-      "timestamp": "11:09:47 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (1M)",
-      "message": "Signal triggered with 75% confidence. Bullish EMA crossover (9 > 21)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9psbrh",
-      "timestamp": "11:09:47 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: GBP/USD (1M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "GBP/USD",
-      "id": "alt_mu9psbrf",
-      "timestamp": "11:09:47 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (5M)",
-      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9ps5l4",
-      "timestamp": "11:09:39 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (15M)",
-      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9ps5l3",
-      "timestamp": "11:09:39 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (5M)",
       "message": "Signal triggered with 87% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9ps5l3",
-      "timestamp": "11:09:39 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (15M)",
-      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9ps5l2",
-      "timestamp": "11:09:39 AM",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q2ziu",
+      "timestamp": "11:18:05 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: S&P 500 (1M)",
-      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "message": "Signal triggered with 81% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "S&P 500",
-      "id": "alt_mu9przf2",
-      "timestamp": "11:09:31 AM",
+      "id": "alt_mu9q2zis",
+      "timestamp": "11:18:05 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (15M)",
-      "message": "Signal triggered with 75% confidence. Bullish EMA crossover (9 > 21)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9prtbk",
-      "timestamp": "11:09:23 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (15M)",
-      "message": "Signal triggered with 75% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9prtbj",
-      "timestamp": "11:09:23 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: GBP/USD (1M)",
+      "title": "CALL Signal Activated: USD/CHF (1M)",
       "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "GBP/USD",
-      "id": "alt_mu9prtbi",
-      "timestamp": "11:09:23 AM",
+      "asset": "USD/CHF",
+      "id": "alt_mu9q2tau",
+      "timestamp": "11:17:57 AM",
       "read": false
     },
     {
@@ -803,98 +833,8 @@
       "title": "CALL Signal Activated: DOW JONES (5M)",
       "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "DOW JONES",
-      "id": "alt_mu9prn52",
-      "timestamp": "11:09:15 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (1M)",
-      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9prn50",
-      "timestamp": "11:09:15 AM",
-      "read": false
-    },
-    {
-      "type": "HIGH_CONFIDENCE",
-      "title": "High Confidence CALL (82%): NASDAQ",
-      "message": "NASDAQ 1M passed high-probability threshold.",
-      "asset": "NASDAQ",
-      "id": "alt_mu9prn50",
-      "timestamp": "11:09:15 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: EUR/USD (1M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "EUR/USD",
-      "id": "alt_mu9prn4z",
-      "timestamp": "11:09:15 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (1M)",
-      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9prgza",
-      "timestamp": "11:09:07 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (15M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9prgza",
-      "timestamp": "11:09:07 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (15M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9prast",
-      "timestamp": "11:08:59 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "PUT Signal Activated: NASDAQ (5M)",
-      "message": "Signal triggered with 81% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9prass",
-      "timestamp": "11:08:59 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (1M)",
-      "message": "Signal triggered with 77% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9prasr",
-      "timestamp": "11:08:59 AM",
-      "read": false
-    },
-    {
-      "type": "HIGH_CONFIDENCE",
-      "title": "High Confidence CALL (81%): NASDAQ",
-      "message": "NASDAQ 5M passed high-probability threshold.",
-      "asset": "NASDAQ",
-      "id": "alt_mu9pqygg",
-      "timestamp": "11:08:43 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (15M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9pqs9s",
-      "timestamp": "11:08:35 AM",
+      "id": "alt_mu9q2n7p",
+      "timestamp": "11:17:49 AM",
       "read": false
     },
     {
@@ -902,116 +842,233 @@
       "title": "High Confidence CALL (82%): S&P 500",
       "message": "S&P 500 5M passed high-probability threshold.",
       "asset": "S&P 500",
-      "id": "alt_mu9pqs9s",
-      "timestamp": "11:08:35 AM",
+      "id": "alt_mu9q2gxp",
+      "timestamp": "11:17:41 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (1M)",
+      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q2gxo",
+      "timestamp": "11:17:41 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (5M)",
+      "message": "Signal triggered with 87% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q2as0",
+      "timestamp": "11:17:33 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (15M)",
+      "message": "Signal triggered with 74% confidence. Bullish EMA crossover (9 > 21)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q2arz",
+      "timestamp": "11:17:33 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (1M)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q2arz",
+      "timestamp": "11:17:33 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: NASDAQ (5M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "NASDAQ",
-      "id": "alt_mu9pqs9r",
-      "timestamp": "11:08:35 AM",
+      "id": "alt_mu9q2ary",
+      "timestamp": "11:17:33 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (5M)",
-      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "title": "PUT Signal Activated: ETH/USD (1M)",
+      "message": "Signal triggered with 72% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
+      "asset": "ETH/USD",
+      "id": "alt_mu9q2ary",
+      "timestamp": "11:17:33 AM",
+      "read": false
+    },
+    {
+      "type": "HIGH_CONFIDENCE",
+      "title": "High Confidence CALL (81%): DOW JONES",
+      "message": "DOW JONES 1M passed high-probability threshold.",
       "asset": "DOW JONES",
-      "id": "alt_mu9pqm6m",
-      "timestamp": "11:08:27 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (1M)",
-      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9pqm6l",
-      "timestamp": "11:08:27 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (1M)",
-      "message": "Signal triggered with 71% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9pqm6k",
-      "timestamp": "11:08:27 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "PUT Signal Activated: S&P 500 (15M)",
-      "message": "Signal triggered with 76% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9pqfxz",
-      "timestamp": "11:08:19 AM",
+      "id": "alt_mu9q24m1",
+      "timestamp": "11:17:25 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: S&P 500 (5M)",
-      "message": "Signal triggered with 71% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9pqfxy",
-      "timestamp": "11:08:19 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (15M)",
       "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9pqfxx",
-      "timestamp": "11:08:19 AM",
+      "asset": "S&P 500",
+      "id": "alt_mu9q24m1",
+      "timestamp": "11:17:25 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: GBP/USD (1M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "GBP/USD",
-      "id": "alt_mu9pqfxv",
-      "timestamp": "11:08:19 AM",
+      "title": "CALL Signal Activated: S&P 500 (15M)",
+      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q1yg4",
+      "timestamp": "11:17:17 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (15M)",
+      "title": "CALL Signal Activated: DOW JONES (1M)",
       "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "DOW JONES",
-      "id": "alt_mu9pq9r4",
-      "timestamp": "11:08:11 AM",
+      "id": "alt_mu9q1s9b",
+      "timestamp": "11:17:09 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (5M)",
+      "title": "CALL Signal Activated: S&P 500 (5M)",
       "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9pq9r3",
-      "timestamp": "11:08:11 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (1M)",
-      "message": "Signal triggered with 71% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9pq9r2",
-      "timestamp": "11:08:11 AM",
+      "asset": "S&P 500",
+      "id": "alt_mu9q1s9a",
+      "timestamp": "11:17:09 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: S&P 500 (1M)",
-      "message": "Signal triggered with 77% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "message": "Signal triggered with 75% confidence. Bullish EMA crossover (9 > 21)",
       "asset": "S&P 500",
-      "id": "alt_mu9pq3l5",
-      "timestamp": "11:08:03 AM",
+      "id": "alt_mu9q1s99",
+      "timestamp": "11:17:09 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (15M)",
+      "message": "Signal triggered with 77% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q1s99",
+      "timestamp": "11:17:09 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: USD/CHF (1M)",
+      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "USD/CHF",
+      "id": "alt_mu9q1s98",
+      "timestamp": "11:17:09 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (5M)",
+      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q1lzk",
+      "timestamp": "11:17:00 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "PUT Signal Activated: DOW JONES (15M)",
+      "message": "Signal triggered with 72% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q1fsz",
+      "timestamp": "11:16:52 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (1M)",
+      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q1fsz",
+      "timestamp": "11:16:52 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (15M)",
+      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q1fsz",
+      "timestamp": "11:16:52 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "PUT Signal Activated: NASDAQ (5M)",
+      "message": "Signal triggered with 76% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q1fsx",
+      "timestamp": "11:16:52 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (5M)",
+      "message": "Signal triggered with 87% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q19my",
+      "timestamp": "11:16:44 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (1M)",
+      "message": "Signal triggered with 75% confidence. Bullish EMA crossover (9 > 21)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q19my",
+      "timestamp": "11:16:44 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (1M)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q0xar",
+      "timestamp": "11:16:28 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (1M)",
+      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q0xar",
+      "timestamp": "11:16:28 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (5M)",
+      "message": "Signal triggered with 87% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q0r4l",
+      "timestamp": "11:16:20 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "PUT Signal Activated: DOW JONES (1M)",
+      "message": "Signal triggered with 75% confidence. Bearish EMA crossover (9 < 21)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q0r4l",
+      "timestamp": "11:16:20 AM",
       "read": false
     },
     {
@@ -1019,62 +1076,17 @@
       "title": "CALL Signal Activated: S&P 500 (15M)",
       "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "S&P 500",
-      "id": "alt_mu9ppxfa",
-      "timestamp": "11:07:55 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: S&P 500 (5M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9ppxfa",
-      "timestamp": "11:07:55 AM",
+      "id": "alt_mu9q0r4k",
+      "timestamp": "11:16:20 AM",
       "read": false
     },
     {
       "type": "HIGH_CONFIDENCE",
-      "title": "High Confidence PUT (82%): NASDAQ",
-      "message": "NASDAQ 5M passed high-probability threshold.",
-      "asset": "NASDAQ",
-      "id": "alt_mu9ppxf9",
-      "timestamp": "11:07:55 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "PUT Signal Activated: S&P 500 (1M)",
-      "message": "Signal triggered with 82% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
-      "asset": "S&P 500",
-      "id": "alt_mu9ppr9b",
-      "timestamp": "11:07:47 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: NASDAQ (5M)",
-      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "NASDAQ",
-      "id": "alt_mu9ppr9b",
-      "timestamp": "11:07:47 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (1M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "title": "High Confidence CALL (82%): DOW JONES",
+      "message": "DOW JONES 15M passed high-probability threshold.",
       "asset": "DOW JONES",
-      "id": "alt_mu9ppl2l",
-      "timestamp": "11:07:39 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (15M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9ppewn",
-      "timestamp": "11:07:31 AM",
+      "id": "alt_mu9q0kyk",
+      "timestamp": "11:16:12 AM",
       "read": false
     },
     {
@@ -1082,17 +1094,80 @@
       "title": "CALL Signal Activated: S&P 500 (5M)",
       "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "S&P 500",
-      "id": "alt_mu9ppewm",
-      "timestamp": "11:07:31 AM",
+      "id": "alt_mu9q0kyj",
+      "timestamp": "11:16:12 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (1M)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9q0kyj",
+      "timestamp": "11:16:12 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (15M)",
+      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q0kyj",
+      "timestamp": "11:16:12 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (5M)",
+      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9q0kyi",
+      "timestamp": "11:16:12 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: NASDAQ (1M)",
-      "message": "Signal triggered with 75% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "NASDAQ",
-      "id": "alt_mu9ppewl",
-      "timestamp": "11:07:31 AM",
+      "id": "alt_mu9q0kyi",
+      "timestamp": "11:16:12 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "PUT Signal Activated: DOW JONES (15M)",
+      "message": "Signal triggered with 72% confidence. Strong Bearish EMA alignment (9 < 21 < 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q0esf",
+      "timestamp": "11:16:04 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (15M)",
+      "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q02ic",
+      "timestamp": "11:15:49 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: DOW JONES (5M)",
+      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q02ib",
+      "timestamp": "11:15:49 AM",
+      "read": false
+    },
+    {
+      "type": "HIGH_CONFIDENCE",
+      "title": "High Confidence CALL (82%): DOW JONES",
+      "message": "DOW JONES 1M passed high-probability threshold.",
+      "asset": "DOW JONES",
+      "id": "alt_mu9q02ib",
+      "timestamp": "11:15:49 AM",
       "read": false
     },
     {
@@ -1100,53 +1175,80 @@
       "title": "CALL Signal Activated: NASDAQ (15M)",
       "message": "Signal triggered with 70% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "NASDAQ",
-      "id": "alt_mu9pp8pt",
-      "timestamp": "11:07:23 AM",
+      "id": "alt_mu9q02ia",
+      "timestamp": "11:15:49 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: GBP/USD (1M)",
-      "message": "Signal triggered with 72% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "GBP/USD",
-      "id": "alt_mu9pp8pr",
-      "timestamp": "11:07:23 AM",
-      "read": false
-    },
-    {
-      "type": "WAIT_TO_ACTIVE",
-      "title": "CALL Signal Activated: DOW JONES (5M)",
-      "message": "Signal triggered with 81% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
-      "asset": "DOW JONES",
-      "id": "alt_mu9pp2jo",
-      "timestamp": "11:07:15 AM",
-      "read": false
-    },
-    {
-      "type": "HIGH_CONFIDENCE",
-      "title": "High Confidence CALL (82%): S&P 500",
-      "message": "S&P 500 15M passed high-probability threshold.",
-      "asset": "S&P 500",
-      "id": "alt_mu9pp2jn",
-      "timestamp": "11:07:15 AM",
-      "read": false
-    },
-    {
-      "type": "HIGH_CONFIDENCE",
-      "title": "High Confidence CALL (82%): NASDAQ",
-      "message": "NASDAQ 5M passed high-probability threshold.",
+      "title": "CALL Signal Activated: NASDAQ (5M)",
+      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "NASDAQ",
-      "id": "alt_mu9pp2jm",
-      "timestamp": "11:07:15 AM",
+      "id": "alt_mu9q02ia",
+      "timestamp": "11:15:49 AM",
       "read": false
     },
     {
       "type": "WAIT_TO_ACTIVE",
       "title": "CALL Signal Activated: DOW JONES (1M)",
-      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "message": "Signal triggered with 75% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
       "asset": "DOW JONES",
-      "id": "alt_mu9powcw",
-      "timestamp": "11:07:07 AM",
+      "id": "alt_mu9pzwce",
+      "timestamp": "11:15:41 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (15M)",
+      "message": "Signal triggered with 76% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9pzwcd",
+      "timestamp": "11:15:41 AM",
+      "read": false
+    },
+    {
+      "type": "HIGH_CONFIDENCE",
+      "title": "High Confidence CALL (87%): S&P 500",
+      "message": "S&P 500 5M passed high-probability threshold.",
+      "asset": "S&P 500",
+      "id": "alt_mu9pzwcd",
+      "timestamp": "11:15:41 AM",
+      "read": false
+    },
+    {
+      "type": "HIGH_CONFIDENCE",
+      "title": "High Confidence CALL (82%): NASDAQ",
+      "message": "NASDAQ 1M passed high-probability threshold.",
+      "asset": "NASDAQ",
+      "id": "alt_mu9pzwcc",
+      "timestamp": "11:15:41 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: S&P 500 (5M)",
+      "message": "Signal triggered with 87% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "S&P 500",
+      "id": "alt_mu9pzk08",
+      "timestamp": "11:15:25 AM",
+      "read": false
+    },
+    {
+      "type": "WAIT_TO_ACTIVE",
+      "title": "CALL Signal Activated: NASDAQ (1M)",
+      "message": "Signal triggered with 82% confidence. Strong Bullish EMA alignment (9 > 21 > 50)",
+      "asset": "NASDAQ",
+      "id": "alt_mu9pzk07",
+      "timestamp": "11:15:25 AM",
+      "read": false
+    },
+    {
+      "type": "HIGH_CONFIDENCE",
+      "title": "High Confidence CALL (82%): DOW JONES",
+      "message": "DOW JONES 15M passed high-probability threshold.",
+      "asset": "DOW JONES",
+      "id": "alt_mu9pzdtr",
+      "timestamp": "11:15:17 AM",
       "read": false
     }
   ],
