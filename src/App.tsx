@@ -60,7 +60,7 @@ const AppContent: React.FC = () => {
       {settings?.general?.disclaimer && (
         <div className="bg-gradient-to-r from-emerald-600/90 via-cyan-600/90 to-emerald-600/90 text-slate-950 px-4 py-1.5 text-xs font-bold text-center flex items-center justify-center gap-2">
           <Bell className="w-3.5 h-3.5" />
-          <span>{settings.general.disclaimer}</span>
+          <span>{settings?.general?.disclaimer}</span>
         </div>
       )}
 

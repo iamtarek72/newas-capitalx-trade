@@ -13,9 +13,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="text/javascript">
-      // GitHub Pages SPA single page router redirect handler
+      // GitHub Pages SPA single page router & trailing slash normalizer
       (function() {
-        var search = window.location.search;
+        var loc = window.location;
+        // Fix: If hosted on GitHub Pages and accessed without trailing slash (e.g. /repo instead of /repo/),
+        // browser resolves relative assets (./assets/...) incorrectly against root domain.
+        if (loc.hostname.endsWith('github.io')) {
+          var segments = loc.pathname.split('/').filter(Boolean);
+          if (segments.length === 1 && !loc.pathname.endsWith('/')) {
+            window.location.replace(loc.origin + '/' + segments[0] + '/' + loc.search + loc.hash);
+            return;
+          }
+        }
+
+        var search = loc.search;
         if (search) {
           var params = new URLSearchParams(search);
           var redirectedPath = params.get('p');
@@ -26,7 +37,7 @@
             }
             params.delete('p');
             var remaining = params.toString();
-            var newUrl = window.location.pathname + (remaining ? '?' + remaining : '') + window.location.hash;
+            var newUrl = loc.pathname + (remaining ? '?' + remaining : '') + loc.hash;
             window.history.replaceState(null, '', newUrl);
           }
         }
