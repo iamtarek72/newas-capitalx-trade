@@ -117,7 +117,71 @@ interface AppContextType {
 const AppContext = createContext<AppContextType | undefined>(undefined);
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
+  // Parse initial tab from URL hash or query if present (useful for SPA deep links on GitHub Pages)
+  const getInitialTab = (): ActiveTab => {
+    try {
+      const hash = window.location.hash.replace(/^#\/?/, '').toLowerCase();
+      const validTabs: ActiveTab[] = [
+        'landing',
+        'dashboard',
+        'signals',
+        'chart',
+        'markets',
+        'ai',
+        'money-management',
+        'history',
+        'performance',
+        'alerts',
+        'integrations',
+        'admin',
+      ];
+      if (validTabs.includes(hash as ActiveTab)) {
+        return hash as ActiveTab;
+      }
+    } catch {
+      // Fallback
+    }
+    return 'dashboard';
+  };
+
+  const [activeTab, setActiveTabState] = useState<ActiveTab>(getInitialTab);
+
+  const setActiveTab = useCallback((tab: ActiveTab) => {
+    setActiveTabState(tab);
+    try {
+      window.location.hash = '/' + tab;
+    } catch {
+      // Ignore
+    }
+  }, []);
+
+  // Listen for hash changes (e.g. browser back/forward or 404 redirect)
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace(/^#\/?/, '').toLowerCase();
+      const validTabs: ActiveTab[] = [
+        'landing',
+        'dashboard',
+        'signals',
+        'chart',
+        'markets',
+        'ai',
+        'money-management',
+        'history',
+        'performance',
+        'alerts',
+        'integrations',
+        'admin',
+      ];
+      if (validTabs.includes(hash as ActiveTab)) {
+        setActiveTabState(hash as ActiveTab);
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   const [selectedAsset, setSelectedAsset] = useState<string>('EUR/USD');
   const [selectedTimeframe, setSelectedTimeframe] = useState<Timeframe>('1M');
 

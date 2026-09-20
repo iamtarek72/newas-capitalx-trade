@@ -12,6 +12,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      // GitHub Pages SPA single page router redirect handler
+      (function() {
+        var search = window.location.search;
+        if (search) {
+          var params = new URLSearchParams(search);
+          var redirectedPath = params.get('p');
+          if (redirectedPath) {
+            var cleanPath = decodeURIComponent(redirectedPath).replace(/^\//, '');
+            if (cleanPath) {
+              window.location.hash = '/' + cleanPath;
+            }
+            params.delete('p');
+            var remaining = params.toString();
+            var newUrl = window.location.pathname + (remaining ? '?' + remaining : '') + window.location.hash;
+            window.history.replaceState(null, '', newUrl);
+          }
+        }
+      })();
+    </script>
   </head>
   <body class="bg-[#0b0e14] text-slate-100 antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
     <div id="root"></div>
