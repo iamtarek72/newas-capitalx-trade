@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWAZ CAPITALX — AI Market Intelligence &amp; Smart Risk Management</title>
+    <meta name="description" content="AI Market Intelligence, Signal Analytics, and Smart Money Management trading terminal." />
+    <meta property="og:title" content="NEWAZ CAPITALX — AI Market Intelligence &amp; Smart Risk Management" />
+    <meta property="og:description" content="AI Market Intelligence, Signal Analytics, and Smart Money Management trading terminal." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      // GitHub Pages SPA single page router & trailing slash normalizer
+      (function() {
+        var loc = window.location;
+        // Fix: If hosted on GitHub Pages and accessed without trailing slash (e.g. /repo instead of /repo/),
+        // browser resolves relative assets (./assets/...) incorrectly against root domain.
+        if (loc.hostname.endsWith('github.io')) {
+          var segments = loc.pathname.split('/').filter(Boolean);
+          if (segments.length === 1 && !loc.pathname.endsWith('/')) {
+            window.location.replace(loc.origin + '/' + segments[0] + '/' + loc.search + loc.hash);
+            return;
+          }
+        }
+
+        var search = loc.search;
+        if (search) {
+          var params = new URLSearchParams(search);
+          var redirectedPath = params.get('p');
+          if (redirectedPath) {
+            var cleanPath = decodeURIComponent(redirectedPath).replace(/^\//, '');
+            if (cleanPath) {
+              window.location.hash = '/' + cleanPath;
+            }
+            params.delete('p');
+            var remaining = params.toString();
+            var newUrl = loc.pathname + (remaining ? '?' + remaining : '') + loc.hash;
+            window.history.replaceState(null, '', newUrl);
+          }
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-Boq4XL9S.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DLt9zVPp.css">
+  </head>
+  <body class="bg-[#0b0e14] text-slate-100 antialiased selection:bg-emerald-500/30 selection:text-emerald-300">
+    <div id="root"></div>
+  </body>
+</html>
+
